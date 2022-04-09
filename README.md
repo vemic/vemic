@@ -64,7 +64,7 @@ Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) �
 [購買フロントソリューション「ProFront」](https://www.takt.co.jp/services/profront/) プロダクトテックリードをしています。（宣伝まで。）
 
 
-## 🎗 My Technologies 🎗
+## Technologies
 
 - ERP Biz∫ (Biz-integral) and related platform/infrastructure.
 - Java
