@@ -48,14 +48,14 @@ MyBatisで手の届かないかゆいところに差し込む、シンプルな�
 - upsert
 - optimistickcheck
 
-## Enterprise Application
+## Enterprise Applications
 
 ### 🎗 Flexible Data Storage 🎗
 
 汎用的な文字列やデータを柔軟に管理、参照するアプリ。
 
-著作物の一部にタクトシステムズの権利が含まれており、現状Enterprise版として管理されています。  
-Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) または contact@vemi.jp までお気軽にお問い合わせください。  
+著作物には [タクトシステムズ](https://www.takt.co.jp/) の権利が含まれており、現状Enterprise版として管理されています。  
+Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) または contact@vemi.jp まで問い合わせください。  
 
 ## Other solutions
 
