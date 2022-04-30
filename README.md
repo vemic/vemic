@@ -1,3 +1,14 @@
+## My Profile
+
+エンタープライズ向けフルスタックエンジニアです。  
+得意分野はQA（Quality Assurance）エンジニア。主に開発現場のソリューションや開発基盤を提供しています。  
+エンターテイメント業界でのサービス事例もあります。  
+
+サービス・ソリューション紹介は ~~[こちら](https://vemic.github.io/) ~~ 🚧
+
+こちらでは Open Source Project の紹介をしますが、基本的に未公開です。  
+需要があればちょっとこ綺麗にしてリリースします。
+
 ## Platforms
 
 ### 🎗 mirelplatform 🎗
@@ -11,7 +22,10 @@ SpringBootを拡張したシンプルなバックエンドサーバ
 
 ### 🎗 Mainecoon-UI 🎗
 
-Nuxt.js・Bootstrap ベースのリッチUIフレームワーク
+Nuxt.js・Bootstrap ベースのリッチUIフレームワーク・テンプレート
+
+シンプルな業務画面の高速開発が可能です。
+テンプレート付きなので、迷わず画面展開が可能です。
 
 ## Development solutions
 
@@ -39,9 +53,10 @@ Webアプリケーションに対する疎通テスト、結合テスト、回�
 
 ### 🎗 Function Resolver 🎗
 
-Java上で安全に任意の関数を実行するためのモジュール。
+テキストベースで指定された任意の関数を、Java上で安全に実行するためのモジュール。  
+※Java関数自体はプラグインとして事前に実装する必要があります。  
 
-### 🎗 Mybatis plugins 🎗（未公開）
+### 🎗 Mybatis plugins 🎗
 
 MyBatisで手の届かないかゆいところに差し込む、シンプルなプラグイン。
 
@@ -50,7 +65,7 @@ MyBatisで手の届かないかゆいところに差し込む、シンプルな�
 
 ## Enterprise Applications
 
-### 🎗 Flexible Data Storage 🎗
+### 🎗 Flexible DataStore 🎗
 
 汎用的な文字列やデータを柔軟に管理、参照するアプリ。
 
