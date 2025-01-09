@@ -1,93 +1,95 @@
-## My Profile
+## Profile
 
-エンタープライズ向けフルスタックエンジニアです。  
-得意分野はQA（Quality Assurance）エンジニア。主に開発現場のソリューションや開発基盤を提供しています。  
-エンターテイメント業界でのサービス事例もあります。  
+- IT業界向け : アプリケーションプラットフォーム、開発現場のソリューションやライブラリを気ままに開発しています。  
+- エンターテイメント業界向け : デジタルメッセージカード「メセカ」を開発運用していました。
 
-サービス・ソリューション紹介は ~~[こちら](https://vemic.github.io/) ~~ 🚧
+<!--
+サービス・ソリューション紹介は ~~[こちら](https://vemic.github.io/)~~ 🚧
+-->
 
-こちらでは Open Source Project の紹介をしますが、基本的に未公開です。  
-需要があればちょっとこ綺麗にしてリリースします。
+大部分はOSS (Open Source Project) として開発していますので、需要があればちょっとこ綺麗にしてリリースします。  
+お気軽にお問い合わせください。  
+Contact: contact@vemi.jp
 
 ## Platforms
 
 ### 🎗 mirelplatform 🎗
 
-SpringBootを拡張したシンプルなバックエンドサーバ
+SpringBootとReact.JSをベースとした、アプリケーションフレームワーク。  
+既存の開発ソリューションのアプリケーション基盤となっています。  
 
-- RestAPIの簡単な実装
+- RestAPIのスピーディーな実装
 - 認可管理機能（Comming soon...🚧）
-- その他の便利な使い方
-  - 軽量なダミーAPIの実装
 
 ### 🎗 Mainecoon-UI 🎗
 
-Nuxt.js・Bootstrap ベースのリッチUIフレームワーク・テンプレート
+Vue.js (Nuxt.js)・Bootstrap ベースのリッチUIフレームワーク・テンプレート。
 
-シンプルな業務画面の高速開発が可能です。
-テンプレート付きなので、迷わず画面展開が可能です。
+シンプルな業務画面の高速開発が可能です。  
+テンプレート付きなので、迷わず画面展開が可能です。  
 
 ## Development solutions
 
 ### 🎗 ProMarker 🎗
 
-開発プロジェクトテンプレートや機能スケルトンの自動生成
+開発プロジェクトのテンプレートや機能スケルトンの自動生成アプリケーション。  
 
 定型的なディレクトリ構成、ソースコードや初期データを独自技術によって自動生成します。  
 プロジェクトフォルダや、機能スケルトンの簡単な自動生成によって、高速化、品質平準化に活用できます。  
 テンプレートは[FreeMarker](https://freemarker.apache.org/)を使用していて、豊富なドキュメントに頼ることができます。  
 
-### 🎗 Selenade 🎗
+### 🎗 AppRunner (with Selenade) 🎗
 
-UIテストエンジン。「せれなーで」。かわいいでしょ。
+ノンコーディングのウェブUI自動テストアプリケーション。  
 
-Webアプリケーションに対する疎通テスト、結合テスト、回帰テストに最適化。
-定量的な回帰テスト結果が高速に取得できます。
+Webアプリケーションに対する疎通テスト、結合テスト、回帰テストなどに最適。  
+定量的な回帰テスト結果が高速に取得できます。  
 
+以下を実現できます。
 - UIの自動操作
+- ノンコードによるテスト定義
 - テストデータ、ダミーデータの自動投入
 - エビデンスの自動取得
   - WEBスクリーンショットの自動取得
   - 任意のクエリ結果を自動保存
-- 必要に応じたFailedチェック
 
 ### 🎗 Function Resolver 🎗
 
 テキストベースで指定された任意の関数を、Java上で安全に実行するためのモジュール。  
 ※Java関数自体はプラグインとして事前に実装する必要があります。  
 
-### 🎗 Mybatis plugins 🎗
+### 🎗 Mybatis S2like Plugins 🎗
 
-MyBatisで手の届かないかゆいところに差し込む、シンプルなプラグイン。
+MyBatisで手の届かないかゆいところに差し込む、S2JDBCをリスペクトしたシンプルなプラグイン。
 
-- upsert
-- optimistickcheck
+- upsert (PKに基づいてInsertまたはUpdate)
+- optimistickcheck (排他チェック)
 
-## Enterprise Applications
+## Other Solutions (PR)
 
-### 🎗 Flexible DataStore 🎗
+### FlexEngine (Flexible DataStore) - TAKT Systems, INC.
 
-汎用的な文字列やデータを柔軟に管理、参照するアプリ。
+汎用的な大量データを管理する、ノーコードアプリケーションフレームワークです。  
+UIで簡単なデータ定義をするだけで、汎用データ管理が可能になります。  
+マスタの紐付けやデータ連携にも対応しているため、様々な用途のデータ管理を実現し、DXを推進します。  
 
 著作物には [タクトシステムズ](https://www.takt.co.jp/) の権利が含まれており、現状Enterprise版として管理されています。  
-Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) または contact@vemi.jp まで問い合わせください。  
-
-## Other solutions
+Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) または contact@vemi.jp までお問い合わせください。  
 
 ### ProFront - TAKT Systems, INC.
 
-[購買フロントソリューション「ProFront」](https://www.takt.co.jp/services/profront/) プロダクトテックリードをしています。（宣伝まで。）
-
+[購買フロントソリューション「ProFront」－ タクトシステムズ株式会社](https://www.takt.co.jp/services/profront/) 
 
 ## Technologies
 
-- ERP Biz∫ (Biz-integral) and related platform/infrastructure.
+- ERP: Biz∫ (Biz-integral) and related platform/infrastructure.
 - Java
   - intra-mart Accel Platform
   - TERASOLUNA Server Framework for Java
   - SpringBoot
 - Front-end
-  - Nuxt.js (Vue.js v2/3🌱)
+  - React
+  - Vue.js / Nuxt.js
   - Typescript
 
 ---
