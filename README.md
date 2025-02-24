@@ -30,13 +30,27 @@ Vue.js (Nuxt.js)・Bootstrap ベースのリッチUIフレームワーク・テ�
 
 ## Development solutions
 
+### 🎗 SeasarBatis 🎗
+
+[SeasarBatis - vemic](https://github.com/vemic/seasar-batis)
+
+「MyBatisにあったらいいな」と思う便利機能を取り揃えるラッパーライブラリ。  
+Seasar2に長年慣れ親しんだエンジニアを笑顔にします。  
+
+- 2WaySQL (外出しSQL)
+- JdbcManagerインタフェース (Seasar2 JdbcManager)
+- UserTransactionインタフェース
+- SimpleWhere/ComplexWhere (where句を組み立てるJavaクラス)
+- upsert (insertOrUpdate: PKに基づいたInsertまたはUpdate)
+- バージョンカラムに基づく自動排他チェック
+
 ### 🎗 ProMarker 🎗
 
 開発プロジェクトのテンプレートや機能スケルトンの自動生成アプリケーション。  
 
 定型的なディレクトリ構成、ソースコードや初期データを独自技術によって自動生成します。  
 プロジェクトフォルダや、機能スケルトンの簡単な自動生成によって、高速化、品質平準化に活用できます。  
-テンプレートは[FreeMarker](https://freemarker.apache.org/)を使用していて、豊富なドキュメントに頼ることができます。  
+テンプレートは [FreeMarker](https://freemarker.apache.org/) を使用していて、豊富なドキュメントに頼ることができます。  
 
 ### 🎗 AppRunner (with Selenade) 🎗
 
@@ -57,13 +71,6 @@ Webアプリケーションに対する疎通テスト、結合テスト、回�
 
 テキストベースで指定された任意の関数を、Java上で安全に実行するためのモジュール。  
 ※Java関数自体はプラグインとして事前に実装する必要があります。  
-
-### 🎗 Mybatis S2like Plugins 🎗
-
-MyBatisで手の届かないかゆいところに差し込む、S2JDBCをリスペクトしたシンプルなプラグイン。
-
-- upsert (PKに基づいてInsertまたはUpdate)
-- optimistickcheck (排他チェック)
 
 ## Other Solutions (PR)
 
