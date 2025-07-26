@@ -1,143 +1,98 @@
-## Profile
+# vemic / Hiroki Kurosawa (黒沢 寛大)
 
-フルスタックエンジニアとして、テックリードを中心とした開発活動を行っています。  
-以下に紹介するアプリケーション、ライブラリ、プラットフォームの開発を手がけており、IT業界から エンターテイメント業界まで幅広いソリューションを提供しています。
+## 👨‍💻 About
 
-- IT業界向け : アプリケーションプラットフォーム、開発現場のソリューションやライブラリを気ままに開発しています。  
-- エンターテイメント業界向け : デジタルメッセージカード「メセカ」を開発運用していました。
+業務系アプリケーションの設計と改善に携わりながら、  
+疲弊しない現場づくりに関心を持ち続けています。
 
-<!--
-サービス・ソリューション紹介は ~~[こちら](https://vemic.github.io/)~~ 🚧
--->
+**関心領域**: 開発者が疲れないように、あらかじめ手を打つこと。  
+無理すれば乗り切れる──が前提の現場を、少しずつでも減らしたい。  
+そのためなら、多少の手間を背負ってでも、ちゃんと仕組みを整えていきたいのです。
 
-大部分はOSS (Open Source Project) として開発していますので、需要があればちょっと綺麗にしてリリースします。  
-エンタープライズ向けソリューションも手がけており、お客様のニーズに応じてカスタマイズも承ります。  
-お気軽にお問い合わせください。  
-Contact: contact@vemi.jp
+再現性のある構造、ツール、テンプレートなど、  
+“うまくいく形”を見えるものとして残すことを目指しています。
 
-## Applications
+## 🚀 Featured Projects
 
-### 🎗 AppRunner (with Selenade) 🎗
+### [ProMarker](https://github.com/vemic/promarker) ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
+業務機能のスケルトン生成Webアプリケーション。独自のFunction Resolverで柔軟な構造を実現
 
-ノンコーディングのウェブUI自動テストアプリケーション。  
+### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
+iBATIS/MyBatisをSeasar2で活用するための軽量マッピングライブラリ
 
-Webアプリケーションに対する疎通テスト、結合テスト、回帰テストなどに最適。  
-定量的な回帰テスト結果が高速に取得でき、CI/CDパイプラインとの統合も可能です。  
+### [AppRunner](https://github.com/vemic/apprunner) ![In Development](https://img.shields.io/badge/status-in%20development-yellow)
+ノンコードによるUI自動操作/テストツール
 
-以下を実現できます。
-- UIの自動操作
-- ノンコードによるテスト定義
-- テストデータ、ダミーデータの自動投入
-- エビデンスの自動取得
-  - WEBスクリーンショットの自動取得
-  - 任意のクエリ結果を自動保存
-- 実行スケジュールの設定
+📚 **[OSS & Projects](docs/projects.md)** | 🚀 **[Personal Apps](docs/personal-apps.md)**
 
-### 🎗 ProMarker 🎗
+## 💻 Tech Stack
 
-開発プロジェクトのテンプレートや機能スケルトンの自動生成アプリケーション。  
+<details>
+<summary>📊 GitHub Statistics</summary>
 
-定型的なディレクトリ構成、ソースコードや初期データを独自技術によって自動生成します。  
-プロジェクトフォルダや、機能スケルトンの簡単な自動生成によって、高速化、品質平準化に活用できます。  
-テンプレートは [FreeMarker](https://freemarker.apache.org/) を使用していて、豊富なドキュメントに頼ることができます。  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vemic&show_icons=true&theme=default)
 
-## Development Libraries
+</details>
 
-### 🎗 SeasarBatis 🎗
-
-[SeasarBatis - vemic](https://github.com/vemic/seasar-batis)
-
-「MyBatisにあったらいいな」と思う便利機能を取り揃えるラッパーライブラリ。  
-Seasar2に長年慣れ親しんだエンジニアを笑顔にします。  
-
-- 2WaySQL (外出しSQL)
-- JdbcManagerインタフェース (Seasar2 JdbcManager)
-- UserTransactionインタフェース
-- SimpleWhere/ComplexWhere (where句を組み立てるJavaクラス)
-- upsert (insertOrUpdate: PKに基づいたInsertまたはUpdate)
-- バージョンカラムに基づく自動排他チェック
-
-### 🎗 Function Resolver 🎗
-
-テキストベースで指定された関数を、セキュアかつ安全にJava上で実行するためのライブラリモジュール。  
-
-プラグインアーキテクチャを採用しており、実行可能な関数は事前に登録された信頼できるものに限定されます。  
-動的なコード実行におけるセキュリティリスクを排除し、安全な関数実行環境を提供します。  
-
-- 事前登録された関数のみ実行可能
-- セキュアな実行環境
-- プラグインベースの拡張性
-
-## Platforms
-
-### 🎗 mirelplatform 🎗
-
-SpringBootとReact.JSをベースとした、アプリケーションフレームワーク。  
-既存の開発ソリューションのアプリケーション基盤となっており、エンタープライズアプリケーション開発の効率化を実現します。  
-
-- RestAPIのスピーディーな実装
-- 認可管理機能（Coming soon...🚧）
-- モジュラー設計による拡張性
-
-### 🎗 Mainecoon-UI 🎗
-
-Vue.js (Nuxt.js)・Bootstrap ベースのリッチUIフレームワーク・テンプレート。
-
-シンプルな業務画面の高速開発が可能です。  
-テンプレート付きなので、迷わず画面展開が可能です。  
-レスポンシブデザイン対応で、モバイルからデスクトップまで幅広いデバイスに対応しています。  
-
-## Other Solutions (PR)
-
-### FlexEngine (Flexible DataStore) - TAKT Systems, INC.
-
-汎用的な大量データを管理する、ノーコードアプリケーションフレームワークです。  
-UIで簡単なデータ定義をするだけで、汎用データ管理が可能になります。  
-マスタの紐付けやデータ連携にも対応しているため、様々な用途のデータ管理を実現し、DXを推進します。  
-
-著作物には [タクトシステムズ](https://www.takt.co.jp/) の権利が含まれており、現状Enterprise版として管理されています。  
-Enterprise版の詳細は [タクトシステムズ](https://www.takt.co.jp/) または contact@vemi.jp までお問い合わせください。  
-
-### ProFront - TAKT Systems, INC.
-
-[購買フロントソリューション「ProFront」－ タクトシステムズ株式会社](https://www.takt.co.jp/services/profront/) 
-
-## Technologies
-
-- ERP: Biz∫ (Biz-integral) and related platform/infrastructure.
-- Java
-  - intra-mart Accel Platform
-  - TERASOLUNA Server Framework for Java
-  - SpringBoot
-  - MyBatis
-- Front-end
-  - React
-  - Vue.js / Nuxt.js
-  - TypeScript
-  - Bootstrap
-- Database
-  - PostgreSQL
-  - MySQL
-  - Oracle Database
-- Tools & Platform
-  - FreeMarker
-  - Selenium WebDriver
+### 🟢 Core
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge&logo=apache&logoColor=white)
+![Seasar2](https://img.shields.io/badge/Seasar2-0A0A0A?style=for-the-badge&logo=data&logoColor=white)
+![intra-mart](https://img.shields.io/badge/intra--mart-007ACC?style=for-the-badge&logo=enterprise&logoColor=white)
+![BIZ-INTEGRAL](https://img.shields.io/badge/BIZ--INTEGRAL-1D428A?style=for-the-badge&logo=archlinux&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=java&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse_IDE-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
 
 ---
 
-🎗 Contact: contact@vemi.jp 🎗
+<details>
+<summary>🧩 Frontend / UI</summary>
 
-<!--
-**vemic/vemic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Fluent UI](https://img.shields.io/badge/Fluent_UI-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 
-Here are some ideas to get you started:
+</details>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<details>
+<summary>🔧 DevOps / Infrastructure</summary>
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_Server-333?style=for-the-badge&logo=linux&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![WSL2](https://img.shields.io/badge/WSL2-4EAA25?style=for-the-badge&logo=linux&logoColor=white)
+
+</details>
+
+<details>
+<summary>🛠 Tooling / Lint / Docs</summary>
+
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Mermaid](https://img.shields.io/badge/Mermaid-1E4C8C?style=for-the-badge&logo=mermaid&logoColor=white)
+
+</details>
+
+<details>
+<summary>🧪 Testing</summary>
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+
+</details>
+
+## 📞 Contact
+
+🌐 [Blog](https://blog.vemi.jp/) | 📧 [Email](mailto:contact@vemi.jp)
