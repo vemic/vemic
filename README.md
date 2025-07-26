@@ -15,13 +15,15 @@
 ## 🚀 Featured Projects
 
 ### [ProMarker](https://github.com/vemic/promarker) ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
-業務機能のスケルトン生成Webアプリケーション。独自のFunction Resolverで柔軟な構造を実現
+テンプレートと辞書情報を組み合わせて、機能単位のスケルトンを一式生成するWebアプリ。  
+一度パターンを定義しておけば、案件ごとの繰り返し作業がぐっと減り、"とにかく最初の一歩を早く"が実現できる。  
+開発初期の「とりあえず空ファイルを揃えるあの時間」が一瞬で終わる心地よさを届けたい。
 
 ### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
-iBATIS/MyBatisをSeasar2で活用するための軽量マッピングライブラリ
-
-### [AppRunner](https://github.com/vemic/apprunner) ![In Development](https://img.shields.io/badge/status-in%20development-yellow)
-ノンコードによるUI自動操作/テストツール
+Seasar2のEOLを惜しんだプログラマが、iBATIS/MyBatisで幸せになるためのラッピングライブラリ。  
+S2JDBC（Seasar2 の JdbcManager）が持っていた `.sql` ファイルやクエリビルダー、バッチ処理、トランザクション管理といった機能を、MyBatis 環境に補完します。  
+特に `.sql` ファイルをファイルパス指定でローカル実行できる `selectBySqlFile` 機能は、**従来の SQL 資産をそのまま活かせる快適さ**を提供します。  
+日常的に繰り返される CRUD やバッチ作業も、S2JDBC ライクなスタイルで記述できるため、既存コードとの連続性を保ちながら開発効率を維持できます。
 
 📚 **[OSS & Projects](docs/projects.md)** | 🚀 **[Personal Apps](docs/personal-apps.md)**
 
