@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About
 
-得意分野: テックリード領域、DevOps領域
+得意分野: テックリード領域、DevOps領域  
 あんど、個人開発。  
 
 
@@ -92,4 +92,5 @@ S2JDBC（Seasar2 の JdbcManager）が持っていた `.sql` ファイルやク�
 ## 📞 Contact
 
 🌐 [Blog](https://blog.vemi.jp/) | 📧 [Email](mailto:contact@vemi.jp)
+
 
