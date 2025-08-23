@@ -4,8 +4,8 @@
 
 ## 🎯 Main Projects
 
-### [jackson-databind-jsonc](https://github.com/vemic/jackson-databind-jsonc) ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
-Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** を扱えるようにするラッパーライブラリ。  
+### [JsoncMapper](https://github.com/vemic/jackson-databind-jsonc) ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
+Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、 **JSON5** を扱えるようにするラッパーライブラリ。  
 `.jsonc` ファイルを通常の `ObjectMapper` と同様に読み書き可能。  
 設定ファイルやサンプルデータを扱う場面での開発効率を高めます。
 

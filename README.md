@@ -18,7 +18,17 @@ Seasar2のEOL後も、既存資産を活かしてMyBatisで開発できるよう
 S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行やクエリビルダー、バッチ処理、トランザクション管理を補完します。  
 特に `selectBySqlFile` によって従来のSQL資産をそのまま利用でき、既存コードの連続性を保ちながら快適に開発できます。
 
-📚 **[OSS & Projects](docs/projects.md)** | 🚀 **[Personal Apps](docs/personal-apps.md)**
+### [JsoncMapper](https://github.com/vemic/jackson-databind-jsonc) ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
+Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、 **JSON5** を扱えるようにするラッパーライブラリ。  
+`.jsonc` ファイルを通常の `ObjectMapper` と同様に読み書き可能。  
+設定ファイルやサンプルデータを扱う場面での開発効率を高めます。
+
+### [ながもちおり](https://nagamochiori.vemi.jp)  ![Alpha](https://img.shields.io/badge/status-alpha-red)
+**概要**: 旅行やイベントにおける「支払い管理」と「旅程管理」を一体化するWebアプリ。  
+グループでの計画から精算までをカバーし、シンプルかつリアルタイムに共有可能。  
+
+
+**Others:** 📚 **[OSS & Projects](docs/projects.md)** | 🚀 **[Personal Apps](docs/personal-apps.md)**
 
 ## 💻 Tech Stack
 
