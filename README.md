@@ -8,25 +8,24 @@
 
 ## 🚀 Featured Projects
 
-### [ProMarker](https://github.com/vemic/promarker) ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
-テンプレートと辞書情報を組み合わせて、機能単位のスケルトンを一式生成するWebアプリ。  
-一度パターンを定義しておけば、案件ごとの繰り返し作業が大幅に減り、"とにかく最初の一歩を早く"が実現できます。  
-開発初期に「空ファイルを揃えるだけ」の作業が一瞬で終わる感覚を味わえます。
-
-### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
-Seasar2のEOL後も、既存資産を活かしてMyBatisで開発できるようにするラッピングライブラリ。  
-S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行やクエリビルダー、バッチ処理、トランザクション管理を補完します。  
-特に `selectBySqlFile` によって従来のSQL資産をそのまま利用でき、既存コードの連続性を保ちながら快適に開発できます。
-
 ### [JsoncMapper](https://github.com/vemic/jackson-databind-jsonc) ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
 Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、 **JSON5** を扱えるようにするラッパーライブラリ。  
 `.jsonc` ファイルを通常の `ObjectMapper` と同様に読み書き可能。  
 設定ファイルやサンプルデータを扱う場面での開発効率を高めます。
 
-### [ながもちおり](https://nagamochiori.vemi.jp)  ![Alpha](https://img.shields.io/badge/status-alpha-red)
+### [ProMarker](https://github.com/vemic/promarker) ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
+テンプレートと辞書情報を組み合わせて、機能単位のスケルトンを一式生成するWebアプリ。  
+一度パターンを定義しておけば、案件ごとの繰り返し作業が大幅に減り、"とにかく最初の一歩を早く"が実現できます。  
+開発初期に「空ファイルを揃えるだけ」の作業が一瞬で終わる感覚を味わえます。
+
+### [ながもちおり](https://nagamochiori.vemi.jp)  ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
 **概要**: 旅行やイベントにおける「支払い管理」と「旅程管理」を一体化するWebアプリ。  
 グループでの計画から精算までをカバーし、シンプルかつリアルタイムに共有可能。  
 
+### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
+Seasar2のEOL後も、既存資産を活かしてMyBatisで開発できるようにするラッピングライブラリ。  
+S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行やクエリビルダー、バッチ処理、トランザクション管理を補完します。  
+特に `selectBySqlFile` によって従来のSQL資産をそのまま利用でき、既存コードの連続性を保ちながら快適に開発できます。
 
 **Others:** 📚 **[OSS & Projects](docs/projects.md)** | 🚀 **[Personal Apps](docs/personal-apps.md)**
 
