@@ -21,6 +21,7 @@ Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、
 ### [ながもちおり](https://nagamochiori.vemi.jp)  ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
 **概要**: 旅行やイベントにおける「支払い管理」と「旅程管理」を一体化するWebアプリ。  
 グループでの計画から精算までをカバーし、シンプルかつリアルタイムに共有可能。  
+[ながもちおり － やさしい割り勘としおり](https://nagamochiori.vemi.jp/)  
 
 ### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
 Seasar2のEOL後も、既存資産を活かしてMyBatisで開発できるようにするラッピングライブラリ。  
@@ -100,5 +101,6 @@ S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行や
 ## 📞 Contact
 
 🌐 [Blog](https://blog.vemi.jp/) | 📧 [Email](mailto:contact@vemi.jp)
+
 
 
