@@ -23,7 +23,7 @@ Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、
 グループでの計画から精算までをカバーし、シンプルかつリアルタイムに共有可能。  
 [ながもちおり － やさしい割り勘としおり](https://nagamochiori.vemi.jp/)  
 
-### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
+### [SeasarBatis](https://github.com/vemic/seasar-batis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
 Seasar2のEOL後も、既存資産を活かしてMyBatisで開発できるようにするラッピングライブラリ。  
 S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行やクエリビルダー、バッチ処理、トランザクション管理を補完します。  
 特に `selectBySqlFile` によって従来のSQL資産をそのまま利用でき、既存コードの連続性を保ちながら快適に開発できます。
@@ -101,6 +101,7 @@ S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行や
 ## 📞 Contact
 
 🌐 [Blog](https://blog.vemi.jp/) | 📧 [Email](mailto:contact@vemi.jp)
+
 
 
 
