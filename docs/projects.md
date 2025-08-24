@@ -13,7 +13,7 @@ Jacksonの `JsonMapper` を拡張し、**JSONC（コメント付きJSON）** 、
 
 ---
 
-### [SeasarBatis](https://github.com/vemic/seasarbatis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
+### [SeasarBatis](https://github.com/vemic/seasar-batis) ![Alpha](https://img.shields.io/badge/status-alpha-red)
 Seasar2のEOL後も既存資産を活かすための、iBATIS/MyBatisラッパーライブラリ。  
 S2JDBCライクなSQLファイル実行（selectBySqlFile）、クエリビルダー、バッチ処理、トランザクション管理などをMyBatis環境に補完。  
 既存コードとの連続性を保ちつつ、モダナイズを支援。  
@@ -60,3 +60,4 @@ SelenideベースのWeb UI自動操作・テストツール。
 ---
 
 [← Back to Profile](../README.md)
+
