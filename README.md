@@ -1,4 +1,6 @@
-# vemic / Hiroki Kurosawa
+WIP: https://vemi.jp との整理中です。
+---
+# vemikrs / Hiroki Kurosawa
 
 ## 👨‍💻 About
 
@@ -101,6 +103,7 @@ S2JDBC（Seasar2のJdbcManager）が持っていた `.sql` ファイル実行や
 ## 📞 Contact
 
 🌐 [Blog](https://blog.vemi.jp/) | 📧 [Email](mailto:contact@vemi.jp)
+
 
 
 
