@@ -1,69 +1,69 @@
 # vemikrs / Hiroki Kurosawa
 
-OSSを中心に活動しています。導入口は vemi.jp、メインはGitHub。
+I focus on OSS-first activities. Entry point is vemi.jp, main work is on GitHub.
 
-日本語 | [English](./README.en.md)
+[日本語](./README.md) | English
 
 ---
 
 ## 👨‍💻 About
 
-得意分野: テックリード / AI活用開発 / DevOps / レガシー×モダン移行支援 / 個人アプリ開発。  
-すべてのプロダクトの入り口は https://vemi.jp です。
+Expertise: Tech Lead / AI-Driven Development / DevOps / Legacy-to-Modern Migration Support / Personal App Development.  
+All product entry points are at https://vemi.jp.
 
 ---
 
 ## 🚀 Featured
 
 ### YuiHub ![Prototype](https://img.shields.io/badge/status-prototype-orange)
-AI会話の連続性を守る外部記憶 — 判断の筋を Fragment / Knot / Thread で繋ぐ思想検証プロトタイプ
+External memory for AI conversation continuity — PoC to preserve decision threads via Fragment / Knot / Thread
 - GitHub: https://github.com/vemikrs/yuihub
-- 技術: Node.js / REST API / Lunr.js / Model Context Protocol (MCP) Server on Localhost
-- モード: Shelter Mode (内部利用優先)
+- Stack: Node.js / REST API / Lunr.js / Model Context Protocol (MCP) Server on Localhost
+- Mode: Shelter Mode (internal use priority)
 
 ### JsoncMapper ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
-コメント付きJSON(JSONC/JSON5)をJacksonで扱うための `JsoncMapper`
+`JsoncMapper` to handle JSON with comments (JSONC/JSON5) using Jackson
 - GitHub: https://github.com/vemikrs/jackson-databind-jsonc
 - Release: https://github.com/vemikrs/jackson-databind-jsonc/releases
 - Maven Central: `jp.vemi:jackson-databind-jsonc`
 
 ### ProMarker ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
-テンプレート×辞書で機能スケルトンを高速生成
+Generate feature skeletons rapidly from templates × dictionaries
 - Powered by: https://github.com/vemikrs/mirelplatform
-- 技術: Spring Boot 3 / Java 21 / FreeMarker 他
-- 🐳 DevContainer対応済み — Clone後 `./start-services.sh` で即起動
+- Stack: Spring Boot 3 / Java 21 / FreeMarker and more
+- 🐳 DevContainer ready — Launch instantly with `./start-services.sh` after clone
 
 ### Function Resolver ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
-テキスト関数をJava APIにマッピングする式評価エンジン
+Expression engine that maps text functions to Java API
 - GitHub: https://github.com/vemikrs/function-resolver
-- ProMarker上で動作中。
+- Running on ProMarker
 
 ### SeasarBatis ![Alpha](https://img.shields.io/badge/status-alpha-red)
-Seasar2の思想と資産をMyBatisで再現するラッパー
+Wrapper to reproduce Seasar2's philosophy and assets with MyBatis
 - GitHub: https://github.com/vemikrs/seasar-batis
-- 2WaySQL・`.sql`実行・クエリビルダー・バッチ・トランザクション
+- 2WaySQL, .sql execution, query builder, batch, transactions
 
 ---
 
 ## 🧭 Personal Apps
 
-### ながもちおり ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
-やさしい割り勘としおり（支払い管理 × 旅程管理）
+### nagamochiori ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
+Gentle expense splitting and itinerary (Payment management × Trip planning)
 - Web: https://nagamochiori.vemi.jp/
-- v2 ランディング（開発中）: https://nagamochiori.vemi.jp/landing-v2
+- v2 Landing (WIP): https://nagamochiori.vemi.jp/landing-v2
 
 ---
 
 ## 🛠 Focus
 
-- Backend: Java / Spring Boot / MyBatis / Seasar2資産の継承
+- Backend: Java / Spring Boot / MyBatis / Inheriting Seasar2 assets
 - Frontend: React / TypeScript / Next.js
 - DevOps: GitHub(Org/Enterprise) / Azure DevOps
 
 ---
 
 <details>
-<summary>📊 Tech Stack (詳細)</summary>
+<summary>📊 Tech Stack (Details)</summary>
 
 ### 🟢 Core
 Java, Spring / Spring Boot, MyBatis, React, TypeScript, PostgreSQL, Oracle
@@ -80,13 +80,13 @@ ESLint, Prettier, Swagger, Mermaid, Visual Studio Code, Eclipse
 ### 🧪 Testing
 JUnit, Jest
 
-より詳しい情報は [/docs/tech-stack.md](./docs/tech-stack.md) をご覧ください。
+For more detailed information, see [/docs/tech-stack.md](./docs/tech-stack.md)
 
 </details>
 
 ---
 
-より詳しい説明や紹介は https://vemi.jp に順次集約します。
+More detailed descriptions and introductions will be consolidated at https://vemi.jp.
 
 ---
 
