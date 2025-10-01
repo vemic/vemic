@@ -1,7 +1,5 @@
 # vemikrs / Hiroki Kurosawa
 
-OSSを中心に活動しています。導入口は vemi.jp、メインはGitHub。
-
 日本語 | [English](./README.en.md)
 
 ---
@@ -72,7 +70,7 @@ Java, Spring / Spring Boot, MyBatis, React, TypeScript, PostgreSQL, Oracle
 JavaScript, Tailwind CSS, Fluent UI, Vite, Astro
 
 ### 🔧 DevOps / Infrastructure
-Docker, GitHub Actions, Linux Server, Azure, WSL2
+GitHub, GitLab, Azure DevOps, Docker/DevContainer, WSL2, Linux Server
 
 ### 🛠 Tooling / Lint / Docs
 ESLint, Prettier, Swagger, Mermaid, Visual Studio Code, Eclipse
