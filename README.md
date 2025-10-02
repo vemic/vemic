@@ -15,30 +15,30 @@
 
 ### YuiHub ![Prototype](https://img.shields.io/badge/status-prototype-orange)
 AI会話の連続性を守る外部記憶 — 判断の筋を Fragment / Knot / Thread で繋ぐ思想検証プロトタイプ
-- GitHub: https://github.com/vemikrs/yuihub
+- GitHub: [vemikrs/yuihub](https://github.com/vemikrs/yuihub)
 - 技術: Node.js / REST API / Lunr.js / Model Context Protocol (MCP) Server on Localhost
 - モード: Shelter Mode (内部利用優先)
 
 ### JsoncMapper ![Stable](https://img.shields.io/badge/status-stable-brightgreen)
 コメント付きJSON(JSONC/JSON5)をJacksonで扱うための `JsoncMapper`
-- GitHub: https://github.com/vemikrs/jackson-databind-jsonc
-- Release: https://github.com/vemikrs/jackson-databind-jsonc/releases
+- GitHub: [vemikrs/jackson-dtabind-jsonc](https://github.com/vemikrs/jackson-databind-jsonc)
+- Release: [vemikrs/jackson-dtabind-jsonc/releases](https://github.com/vemikrs/jackson-databind-jsonc/releases)
 - Maven Central: `jp.vemi:jackson-databind-jsonc`
 
 ### ProMarker ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
 テンプレート×辞書で機能スケルトンを高速生成
-- Powered by: https://github.com/vemikrs/mirelplatform
-- 技術: Spring Boot 3 / Java 21 / FreeMarker 他
-- 🐳 DevContainer対応済み — Clone後 `./start-services.sh` で即起動
+- Powered by: [vemikrs/mirelplatform](https://github.com/vemikrs/mirelplatform)
+- 技術: Spring Boot 3 / Java 21 / Vue2 / FreeMarker 他
+- 🐳 DevContainer対応済み — Codebase起動、またはClone後 `./start-services.sh` で即起動
 
 ### Function Resolver ![Release Candidate](https://img.shields.io/badge/status-release%20candidate-blue)
 テキスト関数をJava APIにマッピングする式評価エンジン
-- GitHub: https://github.com/vemikrs/function-resolver
+- GitHub: [vemikrs/function-resolver](https://github.com/vemikrs/function-resolver)
 - ProMarker上で動作中。
 
 ### SeasarBatis ![Alpha](https://img.shields.io/badge/status-alpha-red)
 Seasar2の思想と資産をMyBatisで再現するラッパー
-- GitHub: https://github.com/vemikrs/seasar-batis
+- GitHub: [vemikrs/seasar-batis](https://github.com/vemikrs/seasar-batis)
 - 2WaySQL・`.sql`実行・クエリビルダー・バッチ・トランザクション
 
 ---
@@ -67,7 +67,7 @@ Seasar2の思想と資産をMyBatisで再現するラッパー
 Java, Spring / Spring Boot, MyBatis, React, TypeScript, PostgreSQL, Oracle
 
 ### 🧩 Frontend / UI
-JavaScript, Tailwind CSS, Fluent UI, Vite, Astro
+Vue.js, Nuxt.js, JavaScript, Tailwind CSS, Fluent UI, Vite, Astro
 
 ### 🔧 DevOps / Infrastructure
 GitHub, GitLab, Azure DevOps, Docker/DevContainer, WSL2, Linux Server
